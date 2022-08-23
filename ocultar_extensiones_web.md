@@ -40,6 +40,9 @@ AllowOverride All
 ```
 
 Paso 5:
+Editar las referencias en todos los archivos, href="nombre.html" debería quedar href="nombre"
+
+Paso 6:
 Reiniciar Apache:
 
 ```bash
