@@ -2,7 +2,7 @@ Paso 1: Crear el archivo .htaccess dentro del directorio raíz de la web
 
 Paso 2: Debemos configurar el fichero .htaccess añadiendo el siguiente código:
 
-```php
+```bash
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
@@ -33,7 +33,7 @@ sudo gedit /etc/apache2/sites-available/000-default.conf
 
 Agregar estás lineas, después de **DocumentRoot "directorio raíz de la web":
 
-```php
+```bash
 <Directory "directorio raíz de la web">
 AllowOverride All
 < / Directory >
