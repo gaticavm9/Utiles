@@ -15,7 +15,7 @@ RewriteRule ^(.*)$ $1.html
 
 Paso 3: Crearemos un archivo info.php e ingresamos el siguiente código:
 
-```bash
+```php
 <?php
 phpinfo();
 ?>
@@ -31,9 +31,11 @@ sudo gedit /etc/apache2/sites-available/000-default.conf
 
 Agregar estás lineas, después de **DocumentRoot "directorio raíz de la web":
 
+```bash
 <Directory "directorio raíz de la web">
 AllowOverride All
 < / Directory >
+```
 
 Paso 5:
 Reiniciar Apache:
